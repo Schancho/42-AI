@@ -49,7 +49,7 @@ def     option(number):
     if number == 1:
         ingredients = []
         recipe_name = input("Please enter recipe name:\n>> ")
-        print("please enter recipe's engridients, tap Enter after each. tap F to finish:")
+        print("please enter recipe's engridients, tap Enter after each. an empty string  to finish:")
         while True:
             ingredients.append(input("-  "))
             if ingredients[-1] == '':
@@ -68,7 +68,7 @@ def     option(number):
         print("Cookbook closed.")
         exit(0)
     else:
-        print("This option does not exist, please type the corresponding number. To exit, enter 5.")
+        print("This option does not exist, please type the corresponding number.\nTo exit, enter 5.")
     
 while True:
     print("Please select an option by typing the corresponding number:")
@@ -93,5 +93,5 @@ while True:
             exit(0)
 
 
-print(name)
+
 
